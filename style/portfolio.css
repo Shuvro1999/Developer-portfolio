@@ -1,0 +1,46 @@
+/* normal style */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+
+/* nav related style */
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* primary-color */
+.primary-text{
+    color: rgb(253, 110, 10);
+}
+.btn-primary{
+    background-color:rgb(253, 110, 10);
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 0;
+    color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-tittle{
+   
+    color: rgb(24, 24, 24);
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
