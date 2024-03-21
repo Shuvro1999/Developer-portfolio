@@ -1,86 +1,145 @@
 /* normal style */
-body{
+body {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
 }
 
 /* nav related style */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
 }
+
 /* primary-color */
-.primary-text{
+.primary-text {
     color: rgb(253, 110, 10);
 }
-.btn-primary{
-    background-color:rgb(253, 110, 10);
+
+.btn-primary {
+    background-color: rgb(253, 110, 10);
     padding: 7px 15px;
     border-radius: 5px;
     border: 0;
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
 }
 
-.nav-tittle{
-   
+.about-tittle {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav-tittle {
+
     color: rgb(24, 24, 24);
     font-size: 45px;
     font-weight: 800;
-    
+
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
+
 /* header related style */
-.header{
+.header {
     background: rgb(255, 248, 243);
 
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-contant{
+
+.banner-contant {
     max-width: 600px;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
 }
-.banner-greating{
+
+.banner-greating {
     font-size: 45px;
     font-weight: 600;
     color: rgb(71, 71, 71);
     margin-bottom: 0px;
 }
-.banner-tittle{
+
+.banner-tittle {
     font-size: 85px;
     font-weight: 700;
     color: rgb(24, 24, 24);
     margin-top: 5px;
     margin-bottom: 0px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     color: rgb(117, 117, 117);
     margin-top: 5px;
+}
+
+/* main section styles */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    padding: 136px;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-tittle {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.info-description{
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 700;
 }
